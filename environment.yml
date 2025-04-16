@@ -1,0 +1,14 @@
+name: vision_env_cuda
+channels:
+  - pytorch        # канал для PyTorch и torchvision
+  - conda-forge    # для остальных пакетов (fastai, albumentations и пр.)
+dependencies:
+  - python=3.9
+  - pytorch=1.13.1  # версия, поддерживающая CUDA
+  - cudatoolkit=11.6
+  - torchvision
+  - fastai
+  - albumentations
+  - numpy
+  - matplotlib
+  - pip            # для возможности установки дополнительных пакетов через pip

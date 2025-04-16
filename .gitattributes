@@ -1,0 +1,9 @@
+# Автоматическое определение текстовых файлов и нормализация LF
+* text=auto
+
+# Принудительно LF для скриптов .sh, .py
+*.sh   text eol=lf
+*.py   text eol=lf
+
+# Принудительно CRLF для batch-файлов .bat
+*.bat  text eol=crlf

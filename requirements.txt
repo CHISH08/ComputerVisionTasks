@@ -1,5 +1,0 @@
-segmentation-models-pytorch
-ultralytics
-albumentations
-scikit-learn
-fastai
